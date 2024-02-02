@@ -1,7 +1,9 @@
+import Main from "./components/Main";
+
 function App() {
   return (
-    <div id="root">
-      <h1 className="">Hello World</h1>
+    <div className="App font-DM-Sans">
+      <Main />
     </div>
   );
 }
