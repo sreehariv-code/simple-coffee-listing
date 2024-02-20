@@ -10,7 +10,7 @@ const GridSection = () => {
   }
   return (
     <div className="grid-wrapper min-h-full">
-      <div className="grid grid-cols-1 gap-5 px-16 mx-auto pt-20 max-w-[80%] md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-5 md:px-16 mx-auto pt-20 max-w-[80%]  md:grid-cols-2 lg:grid-cols-3">
         {filteredData.map((item) => (
           <Card
             key={item.id}

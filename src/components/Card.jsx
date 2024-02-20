@@ -3,7 +3,7 @@ import start_empty from "../assets/dccl--frontend-simple-coffee-listing/Star.svg
 import PropTypes from "prop-types";
 const Card = ({ name, rating, price, image, popular, votes, available }) => {
   return (
-    <div className="max-w-[340px] aspect-[3/3.2]  overflow-hidden  flex flex-col">
+    <div className="md:max-w-[340px] aspect-[3/3.2]  overflow-hidden  flex flex-col">
       <div className="relative flex image-section">
         <img
           src={image}

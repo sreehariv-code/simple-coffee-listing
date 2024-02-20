@@ -6,7 +6,7 @@ const DataContext = createContext();
 
 const DataProvider = ({ children }) => {
   const [data, setData] = useState(null);
-  const [available, setAvailable] = useState(true);
+  const [available, setAvailable] = useState(false);
 
   useEffect(() => {
     async function getData() {
